@@ -1,10 +1,11 @@
 .center {
     text-align: center;
+    font-size: 32px;
 }
 
 .containers {
     color: green;
-    width: 80%;
+    width: 90%;
 }
 
 ul {
@@ -15,8 +16,10 @@ ul {
 li {
     margin-bottom: 50px;
 }
+
 #info {
-    margin: 20px 100px 20px 100px;
+    margin: 20px 0px 20px 250px;
+    font-size: 20px;
 }
 
 #tableLeft {
@@ -24,14 +27,17 @@ li {
 }
 
 #tableRight {
-    float: right;
+    float: left;
 }
 
 @media (max-width: 1200px) {
+    #info {
+        margin: 0px;
+    }
+
     ul {
-        width: 100%;
+        width: 90%;
+        margin: 0px;
     }
-    #tableRight {
-        float: left;
-    }
+
 }
