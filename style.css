@@ -1,0 +1,37 @@
+.center {
+    text-align: center;
+}
+
+.containers {
+    color: green;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+}
+
+li {
+    margin-bottom: 50px;
+}
+#info {
+    margin: 20px 100px 20px 100px;
+}
+
+#tableLeft {
+    float:left;
+}
+
+#tableRight {
+    float: right;
+}
+
+@media (max-width: 1200px) {
+    ul {
+        width: 100%;
+    }
+    #tableRight {
+        float: left;
+    }
+}
