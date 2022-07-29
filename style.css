@@ -1,0 +1,43 @@
+.center {
+    text-align: center;
+    font-size: 32px;
+}
+
+.containers {
+    color: green;
+    width: 90%;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+}
+
+li {
+    margin-bottom: 50px;
+}
+
+#info {
+    margin: 20px 0px 20px 250px;
+    font-size: 20px;
+}
+
+#tableLeft {
+    float:left;
+}
+
+#tableRight {
+    float: left;
+}
+
+@media (max-width: 1200px) {
+    #info {
+        margin: 0px;
+    }
+
+    ul {
+        width: 90%;
+        margin: 0px;
+    }
+
+}
