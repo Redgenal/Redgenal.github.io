@@ -3,18 +3,33 @@
     font-size: 32px;
 }
 
-.containers {
+.subcenter {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.header {
     color: green;
     width: 90%;
 }
 
-ul {
+.containers {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+}
+
+.ul {
     list-style: none;
     width: 40%;
 }
 
 li {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 #info {
@@ -35,7 +50,7 @@ li {
         margin: 0px;
     }
 
-    ul {
+    .ul {
         width: 90%;
         margin: 0px;
     }
