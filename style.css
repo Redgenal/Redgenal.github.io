@@ -9,7 +9,7 @@
 }
 
 .header {
-    color: green;
+    color: blue;
     width: 90%;
 }
 
@@ -45,6 +45,10 @@ li {
     float: left;
 }
 
+progress {
+    width: 90%;
+    height: 25px;
+}
 @media (max-width: 1200px) {
     #info {
         margin: 0px;
