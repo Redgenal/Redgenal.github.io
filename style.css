@@ -1,6 +1,10 @@
 .center {
     text-align: center;
     font-size: 32px;
+    background-color: blue;
+    color: white;
+    margin: 0;
+    border-radius: 15px;
 }
 
 .subcenter {
@@ -24,7 +28,8 @@ p {
 
 .ul {
     list-style: none;
-    width: 40%;
+    width: 45%;
+    padding: 0, 2.5%, 0, 2.5%;
 }
 
 li {
@@ -33,7 +38,6 @@ li {
 }
 
 #info {
-    margin: 20px 0px 20px 250px;
     font-size: 20px;
 }
 
@@ -49,6 +53,19 @@ progress {
     width: 90%;
     height: 25px;
 }
+
+#background {
+    border: 3px solid black;
+    margin: 7% 14% 7% 14%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -5px 5px 15px;
+}
+
+body {
+    background-color: rgba(116, 238, 230, 0.352);
+}
+
 @media (max-width: 1200px) {
     #info {
         margin: 0px;
@@ -59,4 +76,12 @@ progress {
         margin: 0px;
     }
 
+    #background {
+        border: 3px solid black;
+        margin: 7% 5% 7% 5%;
+        background-color: white;
+    }
+    .subcenter {
+        font-size: 14px;
+    }
 }
