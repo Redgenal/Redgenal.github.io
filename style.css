@@ -54,6 +54,14 @@ progress {
     height: 25px;
 }
 
+li img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
 #background {
     border: 3px solid black;
     margin: 7% 14% 7% 14%;
