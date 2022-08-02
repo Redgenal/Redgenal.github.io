@@ -66,6 +66,18 @@ body {
     background-color: rgba(116, 238, 230, 0.352);
 }
 
+#photo {
+    width: 300px;
+    height: 225px;
+}
+
+@media (max-width: 350px) {
+    #photo {
+        width: 250px;
+        height: 187.5px;
+    }
+}
+
 @media (max-width: 1200px) {
     #info {
         margin: 0px;
@@ -85,3 +97,4 @@ body {
         font-size: 14px;
     }
 }
+
