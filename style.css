@@ -30,6 +30,7 @@ p {
     list-style: none;
     width: 45%;
     padding: 0, 2.5%, 0, 2.5%;
+    float:left;
 }
 
 li {
@@ -41,21 +42,15 @@ li {
     font-size: 20px;
 }
 
-#tableLeft {
-    float:left;
-}
-
-#tableRight {
-    float: left;
-}
 
 progress {
     width: 90%;
     height: 25px;
 }
 
-li img {
+li img{
     vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 a {
@@ -77,6 +72,10 @@ body {
 #photo {
     width: 300px;
     height: 225px;
+}
+
+li a{
+    padding-bottom: 35px;
 }
 
 @media (max-width: 350px) {
