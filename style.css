@@ -15,6 +15,7 @@
 .header {
     color: #0a00b3;
     width: 90%;
+    font-style: italic;
 }
 
 .containers {
@@ -42,6 +43,10 @@ li {
     font-size: 20px;
 }
 
+li div {
+    font-style: italic;
+    font-weight: 700;
+}
 
 progress {
     width: 90%;
